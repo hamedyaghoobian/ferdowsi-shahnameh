@@ -27,7 +27,7 @@ for row in open("data/decisions.tsv"):
     if row.startswith("#") or not row.strip(): continue
     form, decision, *note = row.rstrip("\n").split("\t")
     decided[form] = decision
-    if note and note[0] and not (gloss.get(form) or ["", ""])[1]:   # my note, where Wiktionary has no sense
+    if note and note[0]:   # the sense the word has in the Shahnameh, written when it was decided, before Wiktionary's first
         gloss[form] = [(gloss.get(form) or [""])[0], note[0]]
 
 def classify(w):
