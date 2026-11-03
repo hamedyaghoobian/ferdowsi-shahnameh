@@ -28,7 +28,7 @@ for row in open("data/decisions.tsv"):
     form, decision, *note = row.rstrip("\n").split("\t")
     decided[form] = decision
     if note and note[0]:   # the sense the word has in the Shahnameh, written when it was decided, before Wiktionary's first
-        gloss[form] = [(gloss.get(form) or [""])[0], note[0]]
+        gloss[form] = [(gloss.get(form) or [""])[0], note[0], "n"]
 
 def classify(w):
     """ar, name or None, and the form that decided it"""
@@ -113,7 +113,8 @@ for li, text in enumerate(lines):
             continue
         if form not in form_ix:
             form_ix[form] = len(forms)
-            forms.append([form] + (gloss.get(form) or ["", ""]))
+            g = gloss.get(form) or ["", ""]
+            forms.append([form, g[0], g[1], g[2] if len(g) > 2 else ("w" if g[1] else "")])   # n: my note, w: Wiktionary
         arabic += [li, wi, round(x0), round(x1), form_ix[form]]
 n_ar = len(arabic) // 5
 print(f"words {n_words:,}, Arabic {n_ar:,} ({n_ar / n_words:.2%}), Arabic forms {len(forms):,}, names of Arabic shape {n_names:,}")

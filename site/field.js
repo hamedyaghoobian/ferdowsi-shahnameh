@@ -334,8 +334,9 @@ function showPanel(u) {
   if (deathLine[row.l] === 2) what += " · a death";
   const g = document.getElementById("gloss");
   if (u.i >= 0) {
-    const [form, rom, sense] = T.forms[arForm[u.i]];
-    g.innerHTML = `<span lang="fa">${esc(form)}</span>${rom ? ` <i>${esc(rom)}</i>` : ""}${sense ? `, ${esc(sense)}` : ""} <small>from Arabic</small>`;
+    const [form, rom, sense, src] = T.forms[arForm[u.i]];
+    g.innerHTML = `<span lang="fa">${esc(form)}</span>${rom ? ` <i>${esc(rom)}</i>` : ""}${sense ? `, ${esc(sense)}` : ""}` +
+      ` <small>from Arabic${src === "w" ? " · sense from Wiktionary" : ""}</small>`;
   } else g.innerHTML = "";
   document.getElementById("count").textContent = what;
   panel.classList.add("show");
