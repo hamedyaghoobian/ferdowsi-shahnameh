@@ -24,7 +24,8 @@ python3 -I tools/lexicon.py data/wiktionary/persian.jsonl data/lexicon.json
 ## The count
 
 6,409 Arabic words in 568,479, 1.13 per cent; 671 Arabic forms (inflected and compound forms
-counted apart); 1,146 names of Arabic shape left out. For comparison, M. D. Moïnfar, *Le
+counted apart); 1,146 names of Arabic shape left out. رای, judgement (1,026 times), is left out
+as well: Wiktionary gives it both an Arabic and an Iranian origin. For comparison, M. D. Moïnfar, *Le
 vocabulaire arabe dans le Livre des rois de Firdausī* (Wiesbaden, 1970), the one full count,
 found 706 Arabic words occurring 8,938 times, in another edition and by his own rules (as given
 in the *Encyclopaedia Iranica*, "Šāh-nāma iii. Arabic words").
@@ -32,7 +33,7 @@ in the *Encyclopaedia Iranica*, "Šāh-nāma iii. Arabic words").
 ## The deaths
 
 The sections whose Ganjoor headings name a killing or a death (166), and in them the couplets
-whose verse says it (282), found by the patterns at the top of `tools/shape.py`. Headings that
+whose verse names the killing, the dying or the tomb (282), found by the patterns at the top of `tools/shape.py`. Headings that
 name only mourning, news of a death, or a meditation on death are left out.
 
 ## Licences
