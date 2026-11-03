@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Ferdowsi Let In · Readings, Otherwise</title>
+<meta name="description" content="Ferdowsi's Shahnameh with every Persian word taken out. What is left are the Arabic words he let in, scattered across a dark field, and the deaths.">
+<script>
+  // light or dark; dark unless the visitor chose light
+  try { document.documentElement.dataset.theme = localStorage.getItem("what-ferdowsi-let-in:theme") === "light" ? "light" : "dark"; }
+  catch (_) { document.documentElement.dataset.theme = "dark"; }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="field.css?v=1">
+</head>
+<body>
+<button id="theme" class="theme-toggle" type="button">light</button>
+
+<p class="kicker"><a href="../">Readings, Otherwise</a> <span>No. 3</span></p>
+
+<main class="room">
+  <figure class="frame" id="frame">
+    <canvas id="ghost" aria-hidden="true"></canvas>
+    <canvas id="words" aria-label="The Shahnameh with only its Arabic words left, each set where it falls in the verse, across a dark field."></canvas>
+    <div class="controls">
+      <button id="zoom-out" title="Zoom out (−)" aria-label="Zoom out">−</button>
+      <button id="zoom-in" title="Zoom in (+)" aria-label="Zoom in">+</button>
+      <button id="reset" title="See the whole book (0)" aria-label="See the whole book">◻</button>
+    </div>
+    <p class="hint" id="hint">scroll or pinch to come closer · drag to move · point at a light to read it</p>
+    <aside id="panel" aria-live="polite">
+      <p class="where" id="where"></p>
+      <p class="couplet" id="couplet" dir="rtl" lang="fa"></p>
+      <p class="gloss" id="gloss"></p>
+      <p class="count" id="count"></p>
+    </aside>
+  </figure>
+
+  <section class="label" aria-label="Wall label">
+    <h1>What Ferdowsi Let In</h1>
+    <p class="meta">Abolqasem Ferdowsi, <em>Shahnameh</em> (<span lang="fa">شاهنامه</span>), finished 1010 / 2026</p>
+    <p class="meta">Arabic words in the dark. 6,409 of 568,479 words, 49,610 couplets, one metre</p>
+    <p class="layers">Show <button type="button" id="deaths" aria-pressed="false">the deaths</button></p>
+
+    <div class="text">
+      <p>Abolqasem Ferdowsi was born around 940 near Tus, in Khorasan, into the dehqans, the landowning gentry who kept the old stories of Iran. He spent some thirty years putting them into verse and finished in 1010. The <em>Shahnameh</em>, the Book of Kings, runs from the first man and the first king to the fall of the last Sasanian, Yazdegerd, after the Arab conquest of the 640s: some 50,000 couplets, all in one metre.</p>
+      <p>He wrote it three centuries after the conquest, when Arabic was the language of religion, learning and the court, and Persian was only beginning to be written again. Ferdowsi is famous for keeping his Persian nearly free of Arabic. The line most often quoted for it, that he brought the Persians, <span lang="fa">عجم</span>, back to life with this Persian, is not in the text given here, and may not be his. Its key word is Arabic.</p>
+      <p>This is the whole <em>Shahnameh</em> with every Persian word taken out. What is left are the words he let in from Arabic, each one where it falls on its line: 6,409 of the poem's 568,479 words, about one in ninety. From far off they scatter across the dark like stars. Come close and they can be read, with the Persian around them faint, and the couplet under the pointer shows below.</p>
+      <p>Most of them are the words of war and the court. The commonest are <span lang="fa">قیصر</span>, <em>qeysar</em>, Caesar, the title of the emperors of Rome; <span lang="fa">هوا</span>, the air; <span lang="fa">عنان</span>, the rein; <span lang="fa">عاج</span>, ivory; <span lang="fa">سلیح</span>, arms; <span lang="fa">سنان</span>, the spearhead; the robe of honour, the gift, the vanguard, the centre of the army, the tent, the line of battle. The brightest passage in the book is near its start, the praise of the Prophet, where one word in eleven is Arabic.</p>
+      <p>Press <em>the deaths</em> to see the second layer. The sections whose headings name a killing or a death are shaded red: 166 of them, the deaths of Iraj, Sohrab, Siavash, Esfandiyar, Rostam and the last Yazdegerd among them, and of lions, dragons, demons and a sorceress. In 282 couplets the verse itself says it, and there the red is a line. The Book of Kings is also a book of the dead.</p>
+      <p>Which words are Arabic was decided like this. Code put forward every word that might be: those Wiktionary says were borrowed from Arabic, those with letters Persian keeps almost only for Arabic words, those that are Arabic words in Arabic. Claude, a language model, then went through them one by one. Words that came into Persian through Arabic from Greek or Aramaic count, like <span lang="fa">قلم</span>, the pen. Persian words that went into Arabic and came back in Arabic dress do not, like <span lang="fa">تاج</span>, the crown, or <span lang="fa">دهقان</span>, Ferdowsi's own class. Names are left dark: 1,146 of them have an Arabic shape, from Zahhak to Mahmud of Ghazna. The one full count by a scholar, Moïnfar's of 1970, found 706 Arabic words used 8,938 times, in another edition and by his own rules. The list used here is in the code, to be corrected.</p>
+    </div>
+
+    <p class="colophon">Text: the <em>Shahnameh</em> on <a href="https://ganjoor.net/ferdousi/shahname">Ganjoor</a>, 61 books in 857 sections, with Ganjoor's headings. Loanwords: Persian and Arabic Wiktionary, by way of <a href="https://kaikki.org/">kaikki.org</a> (CC BY-SA), and the decisions in <code>data/decisions.tsv</code>. The count to compare with: M. D. Moïnfar, <em>Le vocabulaire arabe dans le Livre des rois de Firdausī</em> (1970), as given in the <em>Encyclopaedia Iranica</em>. Set in Amiri by Khaled Hosny, shaped with HarfBuzz, so each word sits where the browser sets it. Made in 2026 with Claude, a language model.</p>
+    <p class="colophon">Code and data: <a href="https://github.com/hamedyaghoobian/ferdowsi-shahnameh">github.com/hamedyaghoobian/ferdowsi-shahnameh</a></p>
+  </section>
+</main>
+
+<noscript><p class="fallback">This piece needs JavaScript. <a href="https://ganjoor.net/ferdousi/shahname">Read the Shahnameh on Ganjoor instead.</a></p></noscript>
+
+<script src="field.js?v=1"></script>
+</body>
+</html>

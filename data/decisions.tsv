@@ -1,0 +1,780 @@
+# What Ferdowsi Let In: which words of the Shahnameh are Arabic.
+#
+# The forms were put forward by code (tools/candidates.py) and decided one by one by Claude, a
+# language model, not by a philologist. Corrections are welcome: change the second column.
+#
+#   ar    an Arabic word: it is lit on the page and counted
+#   name  a proper name of Arabic origin or Arabic shape: kept apart, not counted (as Moïnfar did)
+#   no    not Arabic: a Persian word, a name of Iranian origin, or a spelling that only looks Arabic
+#
+# Rules kept throughout:
+#   - Words that reached Persian through Arabic from Greek, Aramaic or Syriac count as Arabic
+#     (قلم, فیلسوف, منجنیق, قرطاس, درع): they came in by way of Arabic.
+#   - Persian words that went into Arabic and came back in Arabic dress do not (تاج, دهقان, لعل).
+#   - Numbers are Persian, with their Arabic-looking letters: صد and its compounds, شصت.
+#   - Names are never counted, whatever their origin.
+#
+# form	decision	note
+هم	no	Persian, "also"; Wiktionary's Arabic hamm is a different word
+همی	no	Persian verbal prefix
+قیصر	ar	Caesar, the title, through Arabic qayṣar
+هوا	ar	air
+عنان	ar	rein
+عاج	ar	ivory
+سلیح	ar	arms, silāḥ
+یاقوت	ar	ruby, from Greek through Arabic
+خلعت	ar	robe of honour
+هدیه	ar	gift
+طلایه	ar	vanguard, ṭalīʿa
+قلب	ar	the centre of the army
+خیمه	ar	tent
+صف	ar	rank, line of battle
+بلا	ar	affliction
+طوق	ar	collar, torque
+میمنه	ar	right wing of the army
+میسره	ar	left wing of the army
+نثار	ar	scattering of gifts
+کافور	ar	camphor, in its Arabic form
+تابوت	ar	coffin, from Aramaic through Arabic
+عهد	ar	pact
+صندوق	ar	chest
+وفا	ar	faithfulness
+فلک	ar	the sphere, the heavens
+عنبر	ar	ambergris
+حریر	ar	silk
+حصار	ar	fortress
+منشور	ar	royal patent
+نعل	ar	horseshoe
+نظاره	ar	looking on
+آلت	ar	instrument
+عقاب	ar	eagle
+اسیر	ar	captive
+غارت	ar	plunder
+شمع	ar	candle
+فال	ar	omen
+موج	ar	wave
+کیمیا	ar	alchemy, from Greek through Arabic
+غار	ar	cave
+جاه	ar	rank, standing
+جفا	ar	cruelty
+مغفر	ar	helmet
+زعفران	ar	saffron
+مهد	ar	cradle
+عود	ar	aloes wood; the lute
+کرسی	ar	chair, throne
+دهر	ar	time, fortune
+زبرجد	ar	chrysolite
+قبا	ar	coat
+خط	ar	line, writing
+عبیر	ar	perfume
+قلم	ar	pen, from Greek through Arabic
+فیلسوفان	ar	philosophers, from Greek through Arabic
+عمود	ar	mace
+مجلس	ar	gathering
+بدل	ar	exchange
+درع	ar	coat of mail
+حمله	ar	attack
+عمار	ar	عماری, the litter
+مکافا	ar	مکافات, requital
+ترجمان	ar	interpreter
+شهد	ar	honey
+منزل	ar	stage of a journey
+مال	ar	wealth
+خبر	ar	news
+سنان	ar	spearhead
+ضحاک	name	Zahhak, Arabized
+جیحون	name	the Oxus, by its Arabic name
+منذر	name	Monzer, the Arab king
+یمن	name	Yemen
+سلم	name	Salm, son of Fereydun
+طلخند	name	Talhand
+طیسفون	name	Ctesiphon
+مسیحا	name	the Messiah
+کسری	name	Kasra, the Arabic form of Khosrow
+سکندر	name	Alexander, through Arabic
+فدا	ar	ransom, sacrifice
+دولت	ar	fortune, rule
+هلاک	ar	ruin, death
+غلام	ar	slave, page
+غلامان	ar	slaves, pages
+سندروس	ar	sandarac, a yellow resin
+فرش	ar	carpet
+رعد	ar	thunder
+خیل	ar	troop
+وزیر	ar	minister
+حلقه	ar	ring
+خراج	ar	tribute
+نوبت	ar	turn; the watch drum
+شهره	ar	famous
+فخر	ar	pride
+ماتم	ar	mourning
+درجه	ar	degree, rank
+مشتری	ar	Jupiter
+عیب	ar	fault
+جمله	ar	all, the whole
+مکان	ar	place
+عنوان	ar	title, heading
+تمام	ar	complete
+هول	ar	terror
+زنار	ar	the girdle, from Greek through Arabic
+مدارا	ar	forbearance
+عرض	ar	review of the army
+حقه	ar	casket
+عروس	ar	bride
+مبارز	ar	champion
+راهب	ar	monk
+سعد	ar	auspicious
+درج	ar	casket
+خراب	ar	ruined
+علف	ar	fodder
+طایر	ar	bird
+طبع	ar	nature
+عقیق	ar	carnelian
+مسمار	ar	nail
+حصن	ar	fort
+طبق	ar	tray
+نفس	ar	breath, self
+طلسم	ar	talisman, from Greek through Arabic
+رباب	ar	the rebec
+صلیب	ar	cross
+غرق	ar	drowned
+تدبیر	ar	counsel
+ثریا	ar	the Pleiades
+صورت	ar	form, face
+سنبل	ar	hyacinth
+حجره	ar	chamber
+جواز	ar	leave, passage
+عمودی	ar	of the mace
+منجنیق	ar	mangonel, from Greek through Arabic
+جرس	ar	bell
+ملاح	ar	sailor
+قیصران	ar	Caesars
+قیصری	ar	of Caesar
+جمهور	ar	the multitude
+شمعی	ar	a candle
+برق	ar	lightning
+جلب	ar	clamour
+خرطوم	ar	trunk
+قفیز	ar	a measure of grain
+نفط	ar	naphtha
+مرجان	ar	coral
+منزلی	ar	a stage of a journey
+آدمی	ar	human
+قطره	ar	drop
+فوج	ar	troop
+سقف	ar	roof
+منقار	ar	beak
+حیوان	ar	animal
+نبی	ar	prophet
+شعر	ar	poetry
+محضر	ar	attestation
+قضا	ar	fate
+مجمر	ar	censer
+حنظل	ar	colocynth
+سحرگه	ar	dawn, Arabic sahar with Persian -gah
+بلاها	ar	afflictions
+حرام	ar	forbidden
+حال	ar	state
+میراث	ar	inheritance
+جاثلیق	ar	the catholicos, from Greek through Arabic
+خادم	ar	servant
+خادمان	ar	servants
+توبه	ar	repentance
+وداد	ar	affection
+سیما	ar	face
+ابلق	ar	piebald
+بیت	ar	house; verse
+ساعد	ar	forearm
+رکاب	ar	stirrup
+امن	ar	safety
+جلیل	ar	majestic
+تموز	ar	July, from Syriac through Arabic
+مرکز	ar	centre
+حکیمان	ar	sages
+حاجت	ar	need
+صلاب	ar	اصطرلاب, astrolabe, from Greek through Arabic
+طرایف	ar	rarities
+فیلسوف	ar	philosopher, from Greek through Arabic
+قفل	ar	lock
+معنی	ar	meaning
+عشق	ar	love
+ولی	ar	but; friend
+حمل	ar	Aries
+قصب	ar	fine linen
+برهان	ar	proof
+صحرا	ar	plain
+سحاب	ar	cloud
+ملک	ar	king; kingdom
+لیکن	ar	but
+منبر	ar	pulpit
+طالع	ar	horoscope
+طبل	ar	drum
+بنا	ar	building
+نور	ar	light
+مریم	name	Mary
+نعمان	name	Noman
+محمود	name	Mahmud of Ghazna
+مصر	name	Egypt
+الان	name	the Alans
+صطخر	name	Istakhr, Arabized
+اصطخر	name	Istakhr, Arabized
+عرب	name	the Arabs
+بیطقون	name	Bitqun
+مداین	name	Ctesiphon, by its Arabic name
+نصر	name	Nasr
+زمزم	name	Zamzam
+علی	name	Ali
+مسیح	name	the Messiah
+شام	name	Syria
+فرات	name	the Euphrates
+کلیله	name	Kalila
+محمد	name	Muhammad
+ارمینیه	name	Armenia
+فرطوس	name	Fartus
+عموریه	name	Amorium
+قادسی	name	Qadisiyya
+عمر	name	Omar
+طینوش	name	Tinush
+نعره	ar	
+قرطاس	ar	
+آخر	ar	
+اسیران	ar	
+ساع	ar	
+قدح	ar	
+عراده	ar	
+رباطی	ar	
+بطریق	ar	
+غریب	ar	
+فیلسوفی	ar	
+نعم	ar	
+مثقال	ar	
+نبات	ar	
+وهم	ar	
+توقیع	ar	
+رقعه	ar	
+موکل	ar	
+زرق	ar	
+وصی	ar	
+سریر	ar	
+لاجرم	ar	
+غریبان	ar	
+جناح	ar	
+قعر	ar	
+نقره	ar	
+صبر	ar	
+هودج	ar	
+قصه	ar	
+عناندار	ar	
+غلامی	ar	
+نعلین	ar	
+مهدی	ar	
+اوج	ar	
+دراج	ar	
+صید	ar	
+جود	ar	
+تاریخ	ar	
+معدن	ar	
+دکان	ar	
+جاثلیقان	ar	
+موجود	ar	
+مکر	ar	
+فرشی	ar	
+صفت	ar	
+حرم	ar	
+مصور	ar	
+جزع	ar	
+عیبجوی	ar	
+خطی	ar	
+نادر	ar	
+خصم	ar	
+حاجب	ar	
+برحریر	ar	
+دوات	ar	
+وصف	ar	
+اهل	ar	
+حکیم	ar	
+کریمی	ar	
+کتان	ar	
+حوض	ar	
+مزید	ar	
+صندل	ar	
+سماک	ar	
+حکم	ar	
+معصفر	ar	
+غالیه	ar	
+حور	ar	
+حمایل	ar	
+رقم	ar	
+ثنا	ar	
+کاهل	ar	
+نقش	ar	
+عروسی	ar	
+سلام	ar	
+لقب	ar	
+نشاط	ar	
+ساقی	ar	
+حسرت	ar	
+مراد	ar	
+نفر	ar	
+قربان	ar	
+حق	ar	
+غول	ar	
+بخار	ar	
+وقت	ar	
+بدون	ar	
+صواب	ar	
+عقابی	ar	
+زمهریر	ar	
+سیل	ar	
+قدر	ar	
+احسنت	ar	
+ایام	ar	
+مبتلا	ar	
+مسند	ar	
+آثار	ar	
+حلال	ar	
+آفاق	ar	
+عجم	ar	
+جزا	ar	
+منزلت	ar	
+شراعی	ar	
+حربه	ar	
+عرضگاه	ar	
+صلیبی	ar	
+عدد	ar	
+دایم	ar	
+ملوک	ar	
+طوایف	ar	
+یتیم	ar	
+ابله	ar	
+نسیم	ar	
+رهبان	ar	
+غربیل	ar	
+شعبه	ar	
+علم	ar	
+معین	ar	
+عصر	ar	
+قبله	ar	
+عذار	ar	
+عجب	ar	
+رعنا	ar	
+عناب	ar	
+عاشق	ar	
+اهمال	ar	
+نقشها	ar	
+نشور	ar	
+نعر	ar	
+رضوان	ar	
+منظری	ar	
+صنم	ar	
+فنا	ar	
+حدیث	ar	
+عبرت	ar	
+عصا	ar	
+عنانرا	ar	
+قبضه	ar	
+حیران	ar	
+توحید	ar	
+مرقد	ar	
+نظم	ar	
+دوران	ar	
+رطل	ar	
+طلب	ar	
+دعوی	ar	
+تایید	ar	
+سفره	ar	
+عاری	ar	
+علت	ar	
+نجومی	ar	
+مغنیاطیس	ar	
+زحل	ar	
+قوس	ar	
+قزح	ar	
+قندیل	ar	
+حزم	ar	
+نقط	ar	
+قیصرنژاد	ar	
+مطران	ar	
+باقی	ar	
+غله	ar	
+محابا	ar	
+عادت	ar	
+حاکم	ar	
+لفظ	ar	
+وزن	ar	
+وطوق	ar	
+قفلی	ar	
+چوقیصر	ar	
+مقناع	ar	
+خضرا	ar	
+حکیما	ar	
+فطرت	ar	
+وحی	ar	
+بعد	ar	
+علیم	ar	
+قوی	ar	
+صحاب	ar	
+بغض	ar	
+عفو	ar	
+حشر	ar	
+حاجتستم	ar	
+طلسمی	ar	
+خمیر	ar	
+عکس	ar	
+صنوبر	ar	
+اما	ar	
+صیاد	ar	
+حسام	ar	
+هجو	ar	
+هیبت	ar	
+راحت	ar	
+بحر	ar	
+غبغب	ar	
+لوح	ar	
+شرق	ar	
+نقصان	ar	
+بساطی	ar	
+قطر	ar	
+عقدی	ar	
+محال	ar	
+علفزار	ar	
+زیاد	ar	
+مدام	ar	
+لحد	ar	
+سکون	ar	
+عماریکش	ar	
+عنبرین	ar	
+عنا	ar	
+معنبر	ar	
+عارضان	ar	
+نعرهزنان	ar	
+علوفه	ar	
+حشمت	ar	
+ختم	ar	
+حکمت	ar	
+غفلت	ar	
+افعی	ar	
+لحن	ar	
+نقطه	ar	
+نعلت	ar	
+طوقی	ar	
+عطر	ar	
+عمودگران	ar	
+عزیز	ar	
+صفه	ar	
+غوطه	ar	
+عیبخواه	ar	
+شمعت	ar	
+ساق	ar	
+علاج	ar	
+ثری	ar	
+شمال	ar	
+محراب	ar	
+نوحهزنان	ar	
+نوحه	ar	
+شدت	ar	
+فلان	ar	
+دقیق	ar	
+قیصرا	ar	
+عدو	ar	
+طعنه	ar	
+طبعی	ar	
+منثور	ar	
+طبایع	ar	
+بساط	ar	
+رباط	ar	
+شراع	ar	
+رواق	ar	
+رمح	ar	
+نکهت	ar	
+حکیمی	ar	
+قضیب	ar	
+محب	ar	
+صافی	ar	
+صوفی	ar	
+قصر	ar	
+تهدید	ar	
+روحالقدس	ar	
+ملمع	ar	
+مشعل	ar	
+عمری	ar	
+مغرب	ar	
+اکبر	ar	
+شوال	ar	
+عزل	ar	
+منظر	ar	
+حلقوم	ar	
+حرب	ar	
+عامیان	ar	
+عام	ar	
+برکه	ar	
+عرش	ar	
+صلوات	ar	
+مملکت	ar	
+فتح	ar	
+مصیب	ar	
+جاثلیقی	ar	
+قیصرکشان	ar	
+حلب	name	
+نصیبین	name	
+قاف	name	
+مصری	name	
+سماعیل	name	
+حلوان	name	
+انطاکیه	name	
+سیحون	name	
+ارسطالیس	name	
+خضر	name	
+عیسی	name	
+وقاص	name	
+حیدر	name	
+قلزم	name	
+احمد	name	
+شعیب	name	
+عراق	name	
+بیتالحرام	name	
+خزاعه	name	
+حبش	name	
+حسین	name	
+فلاطون	name	
+عزیر	name	
+مسیحی	name	
+عثمان	name	
+ناصرالدین	name	
+مسعود	name	
+قحطان	name	
+حجاز	name	
+بحرین	name	
+مذبح	ar	
+موشح	ar	
+عوض	ar	
+صورتگری	ar	
+ظلمت	ar	
+صورتپرست	ar	
+مطمع	ar	
+طمع	ar	
+حواصل	ar	
+جعدموی	ar	
+مصقول	ar	
+فقاع	ar	
+معیوب	ar	
+حصیری	ar	
+حصیر	ar	
+راحله	ar	
+قنطار	ar	
+خطش	ar	
+حقشناس	ar	
+ولیعهد	ar	
+قرط	ar	
+منادی	ar	
+صدری	ar	
+صدر	ar	
+عزیزی	ar	
+جاثلقیان	ar	
+وطرب	ar	
+حب	ar	
+محشر	ar	
+توصف	ar	
+بخط	ar	
+نعمت	ar	
+صدف	ar	
+راوی	ar	
+مشعبد	ar	
+درحجره	ar	
+ازعود	ar	
+وحریر	ar	
+بسط	ar	
+چوخصمش	ar	
+ازعنان	ar	
+دوصف	ar	
+رمزی	ar	
+بهتوقیع	ar	
+خطیب	ar	
+وعنوان	ar	
+اطرون	ar	
+محرم	ar	
+چوقرطاس	ar	
+لقمه	ar	
+رقع	ar	
+جریده	ar	
+بهخرطوم	ar	
+علفت	ar	
+چراخلعت	ar	
+راخلعت	ar	
+فطیرست	ar	
+مطرف	ar	
+حریرآر	ar	
+زقیصر	ar	
+کمیت	ar	
+تاشمع	ar	
+معلق	ar	
+اثیر	ar	
+ثریاکنم	ar	
+میسر	ar	
+ملحم	ar	
+طیب	ar	
+حسد	ar	
+قلاده	ar	
+منتها	ar	
+زعنبر	ar	
+رحیل	ar	
+قیصرند	ar	
+بیعت	ar	
+وعد	ar	
+وعید	ar	
+قطران	ar	
+عالم	ar	
+شفیع	ar	
+مصعد	ar	
+مولی	ar	
+اصل	ar	
+فرع	ar	
+فن	ar	
+لا	ar	
+وارث	ar	
+عطارد	ar	
+عدن	name	
+طینوشم	name	
+مسیحابود	name	
+سطرخ	name	
+صطرخ	name	
+قنوح	name	
+بوالفضل	name	
+عباس	name	
+حمزه	name	
+عمان	name	
+حارث	name	
+قسطنیه	name	
+حسنوی	name	
+طبری	name	
+طیسفونش	name	
+طایف	name	
+رسولان	ar	
+رسول	ar	
+ماء	ar	
+مایل	ar	
+رمز	ar	
+خلق	ar	
+زلزله	ar	
+نسخت	ar	
+امین	ar	
+مجلسی	ar	
+وبال	ar	
+غلاف	ar	
+قفا	ar	
+منسوج	ar	
+شمامه	ar	
+ساکن	ar	
+بشر	ar	
+قمری	ar	
+کافر	ar	
+سهل	ar	
+جرم	ar	
+نفیر	ar	
+خمار	ar	
+بلاغ	ar	
+خالی	ar	
+قسیس	ar	
+مناره	ar	
+جند	ar	
+خلوق	ar	
+نمام	ar	
+کتابی	ar	
+نسب	ar	
+جسم	ar	
+مرکزی	ar	
+تنزیل	ar	
+امر	ar	
+اسلام	ar	
+قول	ar	
+الهی	ar	
+قرار	ar	
+خدمت	ar	
+قمار	ar	
+ایمان	ar	
+ذره	ar	
+تقویم	ar	
+مغربل	ar	
+رخام	ar	
+جوهری	ar	
+مرکبان	ar	
+درک	ar	
+زینت	ar	
+مسماری	ar	
+خمس	ar	
+دوام	ar	
+شمالی	ar	
+انسان	ar	
+ترجمانان	ar	
+مولیان	ar	
+درقه	ar	
+جوادی	ar	
+سراب	ar	
+مدد	ar	
+آلات	ar	
+جزیره	ar	
+سالم	ar	
+اسقف	ar	
+نکال	ar	
+سجود	ar	
+توتیا	ar	
+نقل	ar	
+موید	ar	
+مونس	ar	
+خیزران	ar	
+جواب	ar	
+ندیمان	ar	
+منقش	ar	
+کوکب	ar	
+خراجی	ar	
+قامت	ar	
+تاویل	ar	
+آلتی	ar	
+نقشی	ar	
+تهمت	ar	
+شموس	ar	
+کافرین	ar	
+مسلسل	ar	
+منجم	ar	
+اسد	ar	
+اشقر	ar	
+کمیتی	ar	
+نخاس	ar	
+هریسه	ar	
+ادیم	ar	
+ملکت	ar	
+شراب	ar	
+کسر	ar	
+زیتون	ar	
+افلاک	ar	
+کبر	ar	
+قاروره	ar	
+اول	ar	
+جیب	ar	
+رغم	ar	
+هدی	ar	
+ریا	ar	
+غره	ar	
+برات	ar	
+دنیا	ar	
+دوا	ar	
+ذیل	ar	
+ابیات	ar	
+زاهد	ar	
+قرآن	ar	
+جدید	ar	
+شربتی	ar	
+دخل	ar	
+خرج	ar	
+هجرت	ar	
+وهوا	ar	
+یونان	name	
+یونانی	name	
+آدم	name	
+موسی	name	
+هاشمی	name	
+بغدادی	name	
+مامون	name	
+قیس	name	
+قیسی	name	
+فارقین	name	
